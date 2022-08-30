@@ -2,7 +2,7 @@
 
 int main (void) {
 
-    int num = 1, invertido, aux, on = 1, resultado = 0, i;
+    int num = 2, invertido, aux, on = 1, resultado = 0, i;
 
     while (on){
         invertido = 0;
