@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main (void) {
 
@@ -18,7 +19,7 @@ int main (void) {
         /* Verifica se é palíndromo */
         if (num == invertido) {
             
-                for (i = 2; i <= num / 2; i++) { /* Este loop fará as divisões para ver se o número é primo */
+                for (i = 2; i <= sqrt(num); i++) { /* Este loop fará as divisões para ver se o número é primo */
                     
                     if (num % i == 0) { /* Se ele não for primo, esse if é acionado e incrementa a variável "resultado" */
                         resultado++;
